@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Plumber — Fix It Now</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+<div class="brand">
+    <img src="images/mylogo.jpg" class="logo-img" alt="Fix It Now"> 
+</div>      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="city.html">Cities</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="nav-login">Login</a>
+        <div id="userBadgeSvc" class="user-badge" style="display:none"></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Plumber</h1>
+    <p class="lead">Book a professional from our verified list below.</p>
+
+    <div class="profiles-grid">
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Rajath</h3>
+          <div class="meta">⭐4.4 · 3 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 1" data-img="images/worker1.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Sumith</h3>
+          <div class="meta">⭐4.5 · 4 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 2" data-img="images/worker2.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Sanketh</h3>
+          <div class="meta">⭐4.6 · 5 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 3" data-img="images/worker3.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Arun</h3>
+          <div class="meta">⭐4.7 · 6 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 4" data-img="images/worker4.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Aditya</h3>
+          <div class="meta">⭐4.3 · 7 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 5" data-img="images/worker5.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="images/worker.jpg" alt="worker">
+        <div class="profile-body">
+          <h3>Abdul</h3>
+          <div class="meta">⭐4.4 · 8 yrs exp</div>
+          <button class="btn book-btn" data-worker="Worker 6" data-img="images/worker6.jpg" data-role="Plumber">Book</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="bookingCard" class="booking-card" style="display:none">
+    <div class="booking-inner">
+      <img id="bkImg" src="" alt="" class="bk-img">
+      <div>
+        <h3 id="bkName"></h3>
+        <p id="bkMsg">Our team will reach you soon. <span id="bkRole"></span> is on the way.<br>Thank you for booking and choosing Fix It Now.</p>
+        <div class="booking-actions">
+          <button class="btn" id="bkHome">Back to Services</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">© Fix It Now — 2025</div>
+  </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — Fix It Now</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+<div class="brand">
+    <img src="images/mylogo.jpg" class="logo-img" alt="Fix It Now"> 
+</div>      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="city.html">Cities</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="nav-login">Login</a>
+        <div id="userBadgeContact" class="user-badge" style="display:none"></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p class="lead">Helpline numbers and business contact.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Helpline</h3>
+        <p>+91-9148695547</p>
+      </div>
+      <div class="contact-card">
+        <h3>Business Enquiries</h3>
+        <p>Mail: sujalgowda42@gmail.com</p>
+      </div>
+      <div class="contact-card">
+    <h3>Send a message</h3>
+
+    <form action="https://formsubmit.co/sujalgowda42@gmail.com" method="POST">
+
+        <!-- Prevent captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect after success (optional) -->
+        <input type="hidden" name="_next" value="https://yourwebsite.com/success.html">
+
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="text" name="phone" placeholder="Phone" required>
+        <input type="text" name="city" placeholder="City" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+
+        <button class="btn" type="submit">Send Message</button>
+
+    </form>
+</div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Fix It Now — 2025</div>
+  </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
